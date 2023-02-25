@@ -12,17 +12,17 @@ align-items : center;
  } 
 .heart {
     position: relative;
-    height: 160px;
-    width: 100px;
-    background: #d16ba5 ;
+    height: 360px;
+    width: 200px;
+    background: red ;
     border-radius: 200px 200px 0 0;
     transform: rotate(45deg);
-box-shadow : 0px 0px 80px #d16ba5  ;
+box-shadow : 0px 0px 80px red  ;
 }
 .heart::before{
     content: "";
     position: absolute;
-    background: #d16ba5 ;
+    background: red ;
     height: 160px;
     width: 100px;
     transform: rotate(-90deg);
